@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: docs
+  
+# ~~ leave the other parts of the file as they are for now ~~
+
+website:
+  title: "Jared363.github.io"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
