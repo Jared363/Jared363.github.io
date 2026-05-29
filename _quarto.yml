@@ -5,18 +5,22 @@ project:
 # ~~ leave the other parts of the file as they are for now ~~
 
 website:
-  title: "Jared363.github.io"
+  title: "Jared Umphress"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - projects.qmd
+      - interests.qmd
+      - resume.qmd
 
 format:
   html:
-    theme: cosmo
+    theme: yeti
     css: styles.css
     toc: true
+    page-layout: full
 
 
 

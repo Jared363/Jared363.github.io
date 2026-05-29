@@ -1,7 +1,17 @@
 ---
-title: "Jared363.github.io"
+title: "Jared Umphress"
+image: media/headshot.JPG
+toc: false
+about: 
+  template: jolla
+  image-shape: round
+  image-width: 17em
+  links: 
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/jared-umphress-34a71a2b7/
+      target: _blank
+    - text: Email
+      href: mailto:jaredumphress@ucsb.edu
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Hello there! I'm Jared Umphress. I am a third year Environmental Studies (B.S.) major at UC Santa Barbara. I am passionate about our environment and thus I am grateful to be learning and taking action on it in my academics. But I also like to get involved outside of school, whether that is attending local political meetings, or working at a farm. Click around the different tabs to learn more about me!

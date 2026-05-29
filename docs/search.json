@@ -1,16 +1,16 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Jared Umphress",
+    "section": "",
+    "text": "Hello there! I’m Jared Umphress. I am a third year Environmental Studies (B.S.) major at UC Santa Barbara. I am passionate about our environment and thus I am grateful to be learning and taking action on it in my academics. But I also like to get involved outside of school, whether that is attending local political meetings, or working at a farm. Click around the different tabs to learn more about me!"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
     "text": "About this site"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Jared363.github.io",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   }
 ]
