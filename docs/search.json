@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "interests.html",
+    "href": "interests.html",
+    "title": "Interests",
+    "section": "",
+    "text": "My interests"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Jared Umphress",
@@ -7,10 +14,24 @@
     "text": "Hello there! I’m Jared Umphress. I am a third year Environmental Studies (B.S.) major at UC Santa Barbara. I am passionate about our environment and thus I am grateful to be learning and taking action on it in my academics. But I also like to get involved outside of school, whether that is attending local political meetings, or working at a farm. Click around the different tabs to learn more about me!"
   },
   {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Last updated May 31, 2026"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Here are some of the projects I have done"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "A little bit about me."
   }
 ]
