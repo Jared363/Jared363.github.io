@@ -1,5 +1,14 @@
 ---
 title: "Projects"
+subtitle: "Here are some of the projects I have completed or am currently working on!"
+listing:
+  contents: projects
+  type: grid
+  categories: true 
+  sort: 
+  - "date desc"
+lightbox: 
+    css-class: "styles"
 ---
 
 Here are some of the projects I have done:
