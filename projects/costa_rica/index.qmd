@@ -16,8 +16,9 @@ I did this project in Costa Rica.
 
 [View](costa_rica_paper.docx.pdf)
 
-Here is my paper 
-![](costa_rica_paper.docx.pdf){width="80%"}
+Here is my paper\newline
+
+![](costa_rica_paper.docx.pdf)
 
 
 
