@@ -23,6 +23,9 @@ format:
     css: styles.scss
     toc: true
     page-layout: full
-
-
+    include-after-body:
+      - text: |
+          <script>
+          document.querySelectorAll('script[src*="polyfill.io"]').forEach(s => s.remove());
+          </script>
 
