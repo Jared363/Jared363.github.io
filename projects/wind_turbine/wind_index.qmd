@@ -1,6 +1,6 @@
 ---
-title: "Wind Projects"
-description: "Description"
+title: "Wind Turbine Suitability Analysis"
+description: "Identifying suitable wind turbine sites in Alabama"
 image: wind_turbine.png
 date: 2025-09-12
 format: html
@@ -14,4 +14,4 @@ categories:
 
 For my GIS class I worked with a group of four others to determine potential suitable sites for wind turbines in Alabama. Finding a suitable site involved considering multiple factors such as proximity to human residencies, wind speed, and land use type. To generate a layer of suitable sites, my job was to develop a model builder to process the different layers and perform a raster calculator to highlight potential suitable sites.\newline
 
-You can scroll through our story map, which shows the context of our project and our results [here](https://storymaps.arcgis.com/stories/5e37c758940e4fb3a4b95589dd674e57)
+You can scroll through our story map, which shows the context of our project and our results [here](https://storymaps.arcgis.com/stories/5e37c758940e4fb3a4b95589dd674e57){width="100%" height="700px"}

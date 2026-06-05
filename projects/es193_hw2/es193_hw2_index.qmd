@@ -10,10 +10,11 @@ categories:
   - R/R Studio
 ---
 
-### Comparing mean urchin gonad weights between nutrient-enriched urchins vs non-nutrient enriched urchins
+# Comparing mean urchin gonad weights between nutrient-enriched urchins vs non-nutrient enriched urchins
 
 To effectively compare the nutrient-enriched and non-nutrient enriched urchins, I had to clean the data, summarize the data, visualize the data, perform analysis, and then communicate the results. Below is all the code involved along with my annotations on the reasoning for each section. 
 
+#### Loading in packages
 To start out I load in three packages that will help me with my analysis. 
 
 ```{r}
@@ -28,6 +29,7 @@ library(effectsize)
 
 ```
 
+#### Bringing in data
 I then bring in the urchins data using the read_csv function. 
 
 ```{r}
@@ -39,6 +41,7 @@ I then bring in the urchins data using the read_csv function.
 urchins <- read_csv("urchin-experiment-data.csv")
 ```
 
+#### Cleaning the data
 Next, I clean the urchins data to make it easier to analyze and to improve some of the column names. Cleaning the data includes making all the column names lower case and replacing spaces between names with underscores. In addition, I expanded the treatment names "c" and "n" to be their full names of "Control" and "Nutrient-enriched". Furthermore, I selected only the columns of interest for this analysis which includes the type of expiremental treatment, and the weight column. Finally, I dropped any rows with NA values. 
 
 
@@ -70,6 +73,7 @@ slice_sample(urchins_clean,
   
 ```
 
+#### Obtaining summary statistics
 Here I create an object to store summary statistics in order to be able to display these summary statistics in the visualization that I am going to create in the next code chunk!
 
 ```{r}
@@ -93,6 +97,7 @@ urchins_summary
 
 ```
 
+#### Creating a data visualization
 I created a figure in order to visually compare the differences in urchin weight between the two treatment groups. I displayed the mean urchin gonad weights and standard deviations for the two urchin treatment groups. In addition, I displayed all the underlying data using a jitter plot. I set the colors for the "Control" and "Nutrient-enriched" groups manually. In addition, I changed the axis titles and main title using the labs function. Furthermore, I changed the theme of the figure from the default using theme_minimal.
 
 ```{r}
@@ -146,13 +151,14 @@ ggplot(data = urchins_clean,
 
 ```
 
+#### Writing the hypothesis
 Below I write out the null and alternative hypothesis for comparing the mean urchin gonad weights between the two groups. I wrote these hypothesis in statistical formating. 
 
 H[0]: There is no difference in mean urchin gonad weight between the Control group (mean = 26.8), and the Nutrient-enriched group.
 
 H[A]: There is a difference in mean urchin gonad weight between the Control group (mean = 26.8), and the Nutrient-enriched group.
 
-
+#### Assesing normality of the response variable
 To asses the normality of the gonad weight variable between the two groups I created qq plots. 
 
 ```{r}
@@ -180,6 +186,7 @@ The gonad weight (g) variable is normally distributed as the points remain close
 
 Looking at the QQ plot I would say that the variances are pretty similar but the control group likely has more variance due to its outliers at the lower tail end. 
 
+#### Comparing the variances of the response variable between the two groups
 Next, I calculated the gonad weight variances for each group to manually calculate the F test value between the two groups. The F test will inform me whether the variances are equal or not, which will determine what type of t-test I perform. 
 ```{r}
 
@@ -212,6 +219,7 @@ var.test(
 
 ```
 
+#### Performing statistical tests
 Since I determined that the gonad weight variances were not equal between the "Control" and "Nutrient-enriched" I performed a Welch's t-test of unequal variances. 
 ```{r}
 
@@ -247,17 +255,18 @@ cohens_d(
 
 ```
 
+#### Communicating the results
 After performing the Welch's t-test of unequal variance, and Cohen's d analysis, it is time to communicate the results!
 
 We found evidence to suggest that nutrient-enriched seaweed has a moderate effect (Cohen's d = -0.73) on mean gonad weight (g) between urchins fed the nutrient-enriched seaweed and urchins fed normal seaweed (Welch's t-test, t(59.24) = -3.27, p = 0.0017, $a$ = 0.05). 
 
 On average, urchins fed nutrient-enriched seaweeds (n = 35, mean = 31.66) had a mass 4.88 grams greater (95% confidence interval: [-7.87, -1.9]) than urchins fed non-enriched seaweed (n = 42, mean = 26.78). 
 
-### The full homework
+# The full homework
 
 Here is the pdf of all of Homework 2:\newline
 
-[View](homework_2.pdf){width="100%" height="700px"}
+![](homework_2.pdf){width="100%" height="700px"}
 
 
 

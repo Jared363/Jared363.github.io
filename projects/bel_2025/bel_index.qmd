@@ -1,6 +1,6 @@
 ---
 title: "Interactive Dashboard For White Buffalo Land Trust"
-description: "Description"
+description: "Creating a dashboard to help land managers decide where to graze cattle"
 image: dashboard.jpeg
 date: 2025-09-12
 format: html

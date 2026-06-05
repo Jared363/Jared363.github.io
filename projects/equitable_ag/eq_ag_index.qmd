@@ -1,6 +1,6 @@
 ---
 title: "Hazardous Waste Impact on Low Birth Weight"
-description: "Description"
+description: "Investigating how pollution impacts public health"
 image: graph.png
 date: 2024-08-12
 format: html

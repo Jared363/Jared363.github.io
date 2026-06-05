@@ -1,6 +1,6 @@
 ---
 title: "Arthropod Diversity Based on Interrow Plant Diversity in Coffee Farms"
-description: "This is an independent research project I conducted while studying abroad in Costa Rica."
+description: "This is an independent research project I conducted while studying abroad in Costa Rica"
 image: coffee_farm.jpeg
 date: 2025-12-12
 format: html
@@ -14,10 +14,6 @@ categories:
 ---
 
 While touring a farm in Costa Rica, the workers spoke about the difference in weeds between the farm that they managed organically by hand, and the other which they applied herbicide. I was curious as to how herbicide not only affected the prevalence of interrow plants, but also how the prevalance of interrow plants might affect the arthropod diversity and abundance. You can discover what I found by reading the paper below!\newline
-
-[View](costa_rica_paper.docx.pdf){width="100%" height="700px"}
-
-Here is my paper\newline
 
 ![](costa_rica_paper.docx.pdf){width="100%" height="700px"}
 
