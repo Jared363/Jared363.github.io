@@ -1,0 +1,16 @@
+---
+title: "Citrus Donations"
+description: "Description"
+image: citrus.jpeg
+date: 2025-03-10
+format: html
+lightbox:
+  css-class: "styles"
+categories:
+  - Agriculture
+  - Utilizing spanish
+---
+
+The farm that I work at sells avocados commercially, but has about 40 citrus trees for the land owners and workers. While working at the farm I observed a significant amount of citrus was falling to the ground and rotting instead of making it to peoples mouths. Thus, I proposed and have implemented a donation program to deliver excess citrus to the UCSB Food Bank! Read more about my project and general citrus orchard care below.\newline
+
+![](citrus_orchard_proposal.pdf){width="100%" height="700px"}

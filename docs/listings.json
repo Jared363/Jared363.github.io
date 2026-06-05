@@ -2,7 +2,11 @@
   {
     "listing": "/projects.html",
     "items": [
-      "/projects/costa_rica/index.html"
+      "/projects/costa_rica/costa_rica_index.html",
+      "/projects/wind_turbine/wind_index.html",
+      "/projects/bel_2025/bel_index.html",
+      "/projects/citrus_donation/citrus_index.html",
+      "/projects/equitable_ag/eq_ag_index.html"
     ]
   }
 ]

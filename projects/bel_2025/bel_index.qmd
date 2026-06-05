@@ -1,0 +1,18 @@
+---
+title: "Interactive Dashboard For White Buffalo Land Trust"
+description: "Description"
+image: dashboard.jpeg
+date: 2025-09-12
+format: html
+lightbox:
+  css-class: "styles"
+categories:
+  - R/RStudio
+  - GIS
+  - Agriculture
+---
+
+Over the 2025 summer I had the amazing opportunity to create an interactive dashboard for the White Buffalo Land Trust under the mentorship of Isa Elias, a Bren graduate student. The purpose of the dashboard was to provide an overhead view of daily conditions such as vegetation cover and soil moisture across different pastures on the White Buffalo Land Trust's 1000 acre ranch. By comparing multiple pastures at a time, or comparing pastures between different times, this dashboard can help the land stewardship team decide where to move cattle to.
+
+
+You can checkout the dashboard clicking [here](https://isa-elias.shinyapps.io/wblt-pasture-monitoring/)

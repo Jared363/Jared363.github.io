@@ -1,0 +1,74 @@
+---
+title: "Oh the places I've surfed!"
+format: html
+categories: [Interactive Map]
+---
+
+Here are the places I've surfed!
+
+## Interactive Map
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+# loading in required packages
+library(sf)  # spatial data handling             
+library(leaflet) # interactive map creation       
+library(htmltools) # HTML rendering for labels and popups   
+library(janitor) # cleaning column names
+library(tidyverse) # data manipulation and piping
+library(readr)  # reading CSV files
+library(dplyr)
+
+
+# reading in data 
+ss <- read_csv("data/surf_spots.csv")
+
+# renaming name to spot_name so it does not get mixed up with r studio "name" function
+ss <- ss |> rename(spot_name = name)
+
+# loading in icon 
+surfboard_icon <- makeIcon(
+  iconUrl = here::here("media/surfboard.png"),
+  iconWidth = 15, iconHeight = 20)
+```
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+# making map of studios 
+
+site_map <- leaflet() |> 
+  
+  # add base map tiles (use `addTiles()` for Google maps tiles, OR `addProviderTiles()` for 3rd party base maps: https://leaflet-extras.github.io/leaflet-providers/preview/) ----
+  addProviderTiles(providers$Esri.WorldImagery, group = "ESRI World Imagery") |>  
+  addProviderTiles(providers$Esri.OceanBasemap, group = "ESRI Oceans") |> 
+  
+  # add mini map ----
+  addMiniMap(toggleDisplay = TRUE, minimized = TRUE) |> 
+  
+  # set view over CA ----
+  setView(lng = -70, lat = 20, zoom = 2.4) |> 
+  
+  # add markers ----
+  addMarkers(data = ss, group = "spot_name", 
+             icon = surfboard_icon,
+             lng = ~long, lat = ~lat,
+             popup = ~paste0(spot_name, "<br>",
+                             when, "<br>",
+    "Coordinates: ", lat, ", ", long
+  )) |> 
+  
+   # add layers control (toggle base map tiles & markers based on group IDs) ----
+  addLayersControl(
+    baseGroups = c("ESRI World Imagery", "ESRI Oceans"),
+    overlayGroups = c("name"))
+
+  
+#view map 
+site_map
+```

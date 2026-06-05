@@ -1,0 +1,16 @@
+/*-- scss:defaults --*/
+// Import EB Garamond Google font
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+// Colors
+$dark-sage: #557A65;
+$mid-sage: #6B9E7A;
+$cream: #FDFBF4;
+$dark-gray: #48494B;
+
+// Base Document Colors
+$navbar-bg: $dark-sage;
+$navbar-fg: $cream;
+$body-bg: $cream;
+$body-color: $dark-gray;
+$link-color: $mid-sage;  // also fixed the typo: $link-colo → $link-color

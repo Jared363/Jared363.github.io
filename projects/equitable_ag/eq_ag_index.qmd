@@ -1,0 +1,16 @@
+---
+title: "Hazardous Waste Impact on Low Birth Weight"
+description: "Description"
+image: graph.png
+date: 2024-08-12
+format: html
+lightbox:
+  css-class: "styles"
+categories:
+  - R/R Studio
+  - GIS
+---
+
+Over the summer of 2024, I worked in a group with two other students under the mentorship of professors and graduate students to study an environmental justice issue. Our group decided to investigate how the number and proximity to hazardous waste sites impacts low birth weights. In this project we compared San Joaqin County, which experiences disproportional environmental pollution burden, and Santa Barbara County. Below you can see our presentation with out findings.\newline
+
+![](eq_ag_presentation.pdf){width="100%" height="700px"}

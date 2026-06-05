@@ -13,12 +13,14 @@ website:
       - about.qmd
       - projects.qmd
       - interests.qmd
+      - surf.qmd
       - resume.qmd
 
 format:
   html:
-    theme: yeti
-    css: styles.css
+    theme: styles.scss
+    mainfont: EB Garamond
+    css: styles.scss
     toc: true
     page-layout: full
 

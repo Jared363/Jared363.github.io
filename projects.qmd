@@ -11,9 +11,5 @@ lightbox:
     css-class: "styles"
 ---
 
-Here are some of the projects I have done:
-Comparing arthropod diversity between two farms
-WBLT Dashboard
-Eq Ag?
-Wind Project (if I find the link)
-Citrus Donation
+
+
