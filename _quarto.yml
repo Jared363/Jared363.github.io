@@ -12,9 +12,9 @@ website:
         text: Home
       - about.qmd
       - projects.qmd
+      - resume.qmd
       - interests.qmd
       - surf.qmd
-      - resume.qmd
 
 format:
   html:

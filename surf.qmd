@@ -1,10 +1,10 @@
 ---
-title: "Oh the places I've surfed!"
+title: "Places I've surfed!"
 format: html
 categories: [Interactive Map]
 ---
 
-Here are the places I've surfed!
+Connecting with a place through its ocean is a truly wonderful experience! I am grateful for all the opportunities I have had to surf in different places within California and around the world. Below are all the places I have surfed and the type of wave break that the spot is. 
 
 ## Interactive Map
 

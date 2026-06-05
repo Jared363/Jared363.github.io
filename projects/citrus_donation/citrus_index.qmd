@@ -1,6 +1,6 @@
 ---
 title: "Citrus Donations"
-description: "Description"
+description: "I have started a donation program for excess citrus at the farm I work at!"
 image: citrus.jpeg
 date: 2025-03-10
 format: html

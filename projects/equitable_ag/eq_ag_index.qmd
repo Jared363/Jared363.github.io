@@ -8,7 +8,7 @@ lightbox:
   css-class: "styles"
 categories:
   - R/R Studio
-  - GIS
+  - GIS 
 ---
 
 Over the summer of 2024, I worked in a group with two other students under the mentorship of professors and graduate students to study an environmental justice issue. Our group decided to investigate how the number and proximity to hazardous waste sites impacts low birth weights. In this project we compared San Joaqin County, which experiences disproportional environmental pollution burden, and Santa Barbara County. Below you can see our presentation with out findings.\newline
